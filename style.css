@@ -1,0 +1,28 @@
+body{
+    background-color: darkgreen;
+}
+.pai{
+    background-color: darkred;
+    height: 600px;
+    width: 800px;
+    border: 12px solid whitesmoke;
+    margin: 50px auto; /*deixar a margem assim, deixa a classe no centralizado*/
+}
+.filho1{
+    height: 100%;
+    width: 33.333%;
+    background-color: darkgoldenrod;
+    float: left;
+}
+.filho2{
+    width: 33.333%;
+    height: 100%;
+    background-color: darkmagenta;
+    float: right; /*técnica de layout*/
+}
+.filho3{
+    width: 33.333%;
+    height: 100%;
+    background-color: darkblue;
+    float:left
+}
